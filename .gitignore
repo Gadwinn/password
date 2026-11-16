@@ -56,3 +56,6 @@ phpstan.neon
 
 # Ignore temporary files with .tmp extension
 *.tmp
+
+# Generated API documentation (composer gen-docs)
+/docs/phpdoc/
