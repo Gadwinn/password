@@ -43,7 +43,7 @@
             "@test-unit",
             "@test-mnd"
         ],
-        "security-audit": "composer audit --no-dev --format=summary || echo 'Skipping audit (command may not be available)'",
+        "security-audit": "composer audit --no-dev --format=summary --abandoned=report",
         "test-phpcbf": "php vendor/bin/phpcbf || exit 0",
         "test-cs": "php vendor/bin/phpcs",
         "test-stan": "php vendor/bin/phpstan",
